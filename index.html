@@ -1,61 +1,86 @@
-<!-- Creați un website care va conține un calculator BMI unde poți să introduci numele, anul nașterii, înălțimea și greutatea.
-Apăsând pe un buton acesta va calcula BMI.
-Folosiți Git pentru a lucra împreună.
-Folosiți cunoștințele de HTML și CSS pentru a personaliza site-ul.
-Bonus: Creați un form pentru a doua persoană și comparați BMI-urile. -->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Calculator BMI</title>
-    </head>
-    <body>
-        
-       
-        <header>
-            <h2>CALCULATOR BMI</h2>
-            </header>
-            <section id="flexbox">
-        <div class="form">
-        <form id="input" >
-            <label>Introduceti numele: </label> <br>
-            <input type="text" class="name" id="field" required> <br>
-            <label>Introduceti anul nasterii:</label> <br>
-            <input type="date" class="birth" id="field" required> <br>
-            <label>Introduceti inaltimea:</label> <br>
-            <input type="text" class="height" id="field" required> <br>
-            <label>Introduceti greutatea:</label> <br>
-            <input type="text" class="weight" id="field" required>
-        </form>
-        <button type="button"  class="result" >Calculeaza BMI</button>
+ <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="mystyle.css">
+   <title>Survey Form</title>
+ </head>
+ <body>
+   <div class="forme">
+   <h1 id="title">Survey Form</h1>
+   <p id="description"><em>Answer honestly the following questions regarding some routine habits, for the preparation of an opinion survey:</p>
+   <form id="survey-form">
+     <fieldset>
+     <label for="name">Enter your name: <input required type="text" id="name" placeholder="First and Last Name"></input> </label>
+     <br>
+     <label for="email"> Enter your email:<input require type="email" id="email"  placeholder="Email"></input> </label>
+     <br>
+     <label for="number">Enter your age:<input required id="number" min="15" max="100" type="number" placeholder="Age"></input> </input> </label>
+     <br>
+     <label for="job">Enter what type of job you have (optional)*:<input id="job" placeholder="Your job" type="text"></input> </label>
+     </fieldset>
+     <fieldset>
+       <p>1.When you wake up in the morning, do you check your phone first?</p>
+       <p>
+         <input type="radio" name="yes" value="yes"> Yes <br />
+         <input type="radio" name="no" value="no"> No <br />
+         <input type="radio" name="sometimes" value="sometimes"> Sometimes <br />
+       </p>
+       <hr id="rule">
+       <p>2.Do you usually meditate?</p>
+       <p>
+         <input type="radio" name="yes1" value="yes1"> Yes <br />
+         <input type="radio" name="no1" value="no1"> No <br />
+         <input type="radio" name="sometimes1" value="sometimes1"> Sometimes <br />
+       </p>
+<hr id="rule">
+       <p>3.Do you have a diary in which you label your emotions?</p>
+       <p>
+         <input type="radio" name="yes2" value="yes2"> Yes <br />
+         <input type="radio" name="no2" value="no2"> No <br />
+         <input type="radio" name="sometimes2" value="sometimes2"> Sometimes <br />
+       </p>
+<hr id="rule">
+       <p>4.Do you do sports often?</p>
+       <p>
+         <input type="radio" name="yes3" value="yes3"> Yes <br />
+         <input type="radio" name="no3" value="no3"> No <br />
+         <input type="radio" name="sometimes3" value="sometimes3"> Sometimes <br />
+       </p>
+<hr id="rule">
+       <p>5.You often feel at the job:</p>
+       <label for="stressed"><input type="checkbox" id="stress" name="answer-type"></input>Stressed</label>
+       <label for="exhausted"><input type="checkbox" id="exhausted" name="answer-type"></input>Exhausted</label>
+       <label for="stirred"><input type="checkbox" id="stirred" name="answer-type"></input>Stirred</label>
+       <label for="under pressure"><input type="checkbox" id="under-pressure" name="answer-type"></input>Under pressure</label>
+      </fieldset>
+      <fieldset>
+        <label for="refferer">Which method do you think would help you reach an emotional and mental balance?
+        <select id="refferer" name="refferer">
+<option value="">(select one)</option>
+            <option 
+            value="1">A therapist session
+            </option>
+            <option 
+            value="2">Disconnecting from technology 2 hours a day
+            </option>
+            <option 
+            value="3">Connecting with nature
+            </option>
+            <option 
+            value="4">Other
+            </option>
+          </select>
+        </label>
+        </select>
 
-        <p class="bmi"></p>
-        </div>
-
-        <div class="form1">
-            <form id="input1" >
-                <label>Introduceti numele: </label> <br>
-                <input type="text" class="name1" id="field" required> <br>
-                <label>Introduceti anul nasterii:</label> <br>
-                <input type="date" class="birth1" id="field" required> <br>
-                <label>Introduceti inaltimea:</label> <br>
-                <input type="text" class="height1" id="field" required> <br>
-                <label>Introduceti greutatea:</label> <br>
-                <input type="text" class="weight1" id="field" required>
-            </form>
-            <button type="button"  class="result1" >Calculeaza BMI</button>
-    
-            <p class="bmi1"></p>
-            </div>
-        </section>
-
-        <button type="button" class="comparare">Compara BMI</button>
-        <p class="compara"></p>
-
-
-        <script type="text/javascript" src="function.js"></script>
-    </body>
+        <label for="opinion">If you have other methods of emotional help or have heard of other cases of problems related to emotions, you can report them right here:
+          <br>
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Type here..."></textarea>
+        </fieldset>
+        <input type="submit" value="Submit"></input>
+        <p><em>Thank you for your time!</p>
+   </form>
+   </div>
+ </body>
 </html>

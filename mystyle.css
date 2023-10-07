@@ -1,0 +1,97 @@
+h1, p{
+    margin:1em euto;
+    text-align:center; 
+    padding-top:30px;
+    }
+    body{
+      background-color:#d8c29f;
+      font-family:'Times New Roman', Times, serif;
+      margin:0;
+      font-size:18px;
+      width:100%;
+      height:100vh;
+      background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-063-x.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=83aa997affb862438a1bb8e913c0ef36);
+    }
+    #survey-form {
+      margin:0 auto;
+      max-width:500px;
+      min-width:300px;
+      padding-bottom:2em;
+    }
+    fieldset{
+      border:none;
+      padding: 2rem 0;
+      border-bottom: 3px solid #cea057;
+    }
+    label{
+      display:block;
+      margin:0.5rem 0;
+    }
+    input[type="submit"]{
+      display:block;
+      border-color:brown;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      background-color:#cea057;
+      min-width: 300px;
+    }
+    input{
+      background-color:#cea057;
+      color:black;
+      border: 1px solid #cea057;
+    }
+    input[type=text]{
+      width:100%;
+      margin:8px 0;
+      padding:8px 0;
+      box-sizing:border-box;
+      border-bottom: 2px solid black;
+    }
+    input[type=email]{
+      width:100%;
+      margin:8px 0;
+      padding:8px 0;
+      box-sizing:border-box;
+      border-bottom: 2px solid black;
+    }
+    input[type=number]{
+      width:100%;
+      margin:8px 0;
+      padding:8px 0;
+      box-sizing:border-box;
+      border-bottom: 2px solid black;
+    }
+    input[type=text]{
+      width:100%;
+      margin:8px 0;
+      padding:8px 0;
+      box-sizing:border-box;
+      border-bottom: 2px solid black;
+    }
+    textarea{
+      width:90%;
+      padding:12px 15px;
+      border:2px solid;
+      background-color:#cea057;
+      height:100px;
+    }
+    select{
+      width:100%;
+      background-color:#cea057;
+      border:2px solid;
+      padding:10px 15px;
+    }
+    .forme{
+      width:80%;
+      background-color:#eee3d2;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      max-width: 500px;
+    }
+    title{
+      color: #dedada;
+    }
+    color: grey;
+    
