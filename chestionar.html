@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Chestionar</title>
+  </head>
+  <body>
+<h1>Impreuna, imbunatatim experienta Chocolateria</h1>
+<form  action="ciocolata.php" method="post">
+  <fieldset>
+    <legend>Informatii personale</legend>
+    Numele tau<br>
+    <input type="text" name="nume" > <br>
+    Adresa email<br>
+    <input type="email" name="email" required placeholder="Introdu o adresa de email"> <br>
+  </fieldset>
+  <fieldset>
+
+  <legend>Experienta ta cu Chocolateria</legend>
+  <textarea cols="20" rows="S"> Scrie cateva cuvinte despre experienta ta cu Chocolateria</textarea><br><br>
+
+  Ai recomanda si altora Chocolateria?
+  <br>
+  <input type="radio" name="radio" value="r1">Da
+  <br>
+  <input type="radio" name="radio" value="r1">Nu <br><br>
+
+  Care dintre produsele Chocolateria le-ai prefera? <br>
+  <input type="checkbox" name="checkbox" value="ch1">Torturi si prajituri <br>
+  <input type="checkbox" name="checkbox" value="ch2">Praline <br>
+  <input type="checkbox" name="checkbox" value="ch3">Specialitati <br><br>
+  <input class="send" type="submit"  value="Trimite">
+    </fieldset>
+</form>
+  </body>
+</html>

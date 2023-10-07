@@ -1,0 +1,114 @@
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: Dosis;
+}
+nav ul{
+  list-style type: none;
+}
+nav a{
+  text-decoration: none;
+}
+nav li{
+  display: inline-block;
+}
+nav a:link,nav a:visited{
+  width:150px;
+  display: block;
+  text-align: center;
+  padding: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #741603;
+
+}
+nav a:hover{
+  background-color: #741603;
+  color: white;
+}
+.etape{
+  float: left;
+  margin-right: 35px;
+}
+ul{
+  list-style-type: circle;
+}
+.produse{
+  margin-right: 60px;
+  display: inline;
+}
+form{
+  font-weight: bold;
+  background-color: tan;
+}
+.send{
+  background-color: tan;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 650px;
+  left: 690px;
+}
+.paragraf{
+  font-family: Sacramento;
+  font-size: 40px;
+}
+.scurta descriere{
+  bottom: 50px;
+  position: absolute;
+}
+.adresa{
+  position: absolute;
+  top: 250px;
+  left: 1100px;
+}
+.titlu{
+  font-family:font-family: 'Sacramento', cursive ;
+}
+.meniu{
+  position: absolute;
+  top: 10px;
+  right: 200px;
+}
+.cover{
+  margin-top: 50px;
+}
+.cover:hover{
+  opacity: 0.7;
+}
+h1{
+  font-family: font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+.descriere{
+  width: 50%;
+}
+.aside{
+  background-color: tan;
+  width: 350px;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  font-family: font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  position: absolute;
+  top: 460px;
+  right: 190px;
+}
+.buton{
+  position: absolute;
+  left: 650px;
+  top: 700px;
+  background-color: tan;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
