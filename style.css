@@ -1,0 +1,211 @@
+/* Stilizare pagina home.html */
+
+body{
+    background-color: #deab45;
+}
+
+#header{
+    background-color: #f4e598;
+}
+#logo{
+    margin: 50px 500px 0 700px;
+}
+
+h2{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#introduction{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ nav a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 250px;
+ }
+
+ nav a:hover{
+    background-color: rgb(101, 168, 234);
+    color: black;
+    border-radius: 6px;
+ }
+
+ #grid-container{
+    border: 2px solid #f4e598;
+    background-color: #f4e598;
+    margin: 150px;
+    height: 500px;
+
+ }
+
+ .grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 250px;
+    margin-top: 30px;
+ }
+
+ .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 270px;
+    margin-top: 15px;
+ }
+
+ .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 250px;
+    margin-top: 40px;
+ }
+
+ #footer{
+background-color: #f4e598;
+margin-bottom: 0;
+ }
+
+ footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  #footer-link{
+    text-decoration: none;
+    color: black;
+  }
+
+  ul a:hover{
+    background-color: rgb(101, 168, 234);
+    color: black;
+    border-radius: 6px;
+  }
+
+  footer ul li{
+    padding: 0 10px;
+  }
+
+  footer span{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: black;
+  }
+  
+  #logo-footer{
+    width: 100px;
+    height: 90px;
+    margin-top: 70px;
+    margin-left: 1290px;
+  }
+
+  /* Stilizare pagina credite.html */
+
+  h1{
+    text-align: center;
+  }
+
+  .header{
+    border: 2px solid black;
+    background-color: #f4e598;
+    margin-top: 50px;
+  }
+
+.box{
+  border: 2px solid black;
+  background-color: #f4e598;
+  width: 500px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 450px;
+}
+
+#form{
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.rezultat{
+  border: 2px solid black;
+  background-color: #deab45;
+  margin-left: 185px;
+  font-size: 20px;
+}
+
+#creditnev, #creditimob{
+  font-size: 15px;
+}
+
+input{
+  background-color:#deab45;
+  color:black;
+  border: 1px solid #deab45;
+}
+
+input[type=number]{
+  width:90%;
+  margin:8px 0;
+  padding:8px 0;
+  box-sizing:border-box;
+  border-bottom: 2px solid black;
+}
+input[type=text]{
+  width:90%;
+  margin:8px 0;
+  padding:8px 0;
+  box-sizing:border-box;
+  border-bottom: 2px solid black;
+}
+
+.rezultat1{
+  border: 2px solid black;
+  background-color: #deab45;
+  margin-left: 185px;
+  font-size: 20px;
+}
+
+.aboutBT{
+  border: 2px solid black;
+  background-color: #f4e598;
+  margin-top: 50px;
+}
+
+ul li{
+  text-align: center;
+ list-style-type: none;
+ font-size: 21px;
+}
+

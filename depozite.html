@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Simulator depozite</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Calculator pentru depozitare bani</h1>
+            <p>Introdu caracteristicile depozitului pe care vrei să îl accesezi (valoarea, durata), iar calculatorul îți va afișa întregul context pentru depozitul dorit.</p>
+        </div>
+
+        <div class="box">
+            <form id="form">
+                <label>Introduceti numele dumneavoastra:</label> <br>
+                <input type="text" id="name" > <br>
+                <label>Suma pe care doriti sa o depozitati</label> <br>
+                <input type="number" class="bani" min="100" max="500000" > <br>
+                <label>Pe ce perioada de timp doriti sa recuperati banii:</label> <br>
+                <input type="number" class="years" > <br>           
+                </form>
+
+                <button type="button" class="rezultat1">Calculeaza...</button>
+                <p class="paragraf1"></p> 
+            </div>
+
+
+
+            <script type="text/javascript" src="action1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Simulator de credite</title>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Calculator de rate</h1>
+        <p>Introdu caracteristicile creditului pe care vrei să îl accesezi (tipul, valoarea, durata), iar calculatorul îți va afișa întregul context pentru creditul dorit.</p>
+        </div>
+
+        <div class="box">
+            <form id="form">
+                <label>Introduceti numele dumneavoastra:</label> <br>
+                <input type="text" id="name" > <br>
+                <label>Introduceti tipul de credit:</label> <br>
+                <input type="radio" id="creditnev" name="credit" value="Credit_nevoi_personale" > 
+                <label for="creditnev">CREDIT DE NEVOI PERSONALE</label> <br>
+                <input type="radio" id="creditimob" name="credit" value="Credit_imobiliar" > 
+                <label for="creditimob">CREDIT IMOBILIAR</label> <br>
+                <label>Suma pe care doriti sa o imprumutati</label> <br>
+                <input type="number" class="sum" min="100" max="500000" > <br>
+                <label>Pe ce perioada de timp doriti sa restituiti banii:</label> <br>
+                <input type="number" class="period" max="25" > <br>           
+                </form>
+
+                <button type="button" class="rezultat">Calculeaza...</button>
+                <p class="paragraf"></p>
+            </div>
+
+
+            <script type="text/javascript" src="action.js"></script>
+    </body>
+</html>
