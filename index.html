@@ -1,86 +1,92 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
- <head>
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="mystyle.css">
-   <title>Survey Form</title>
- </head>
- <body>
-   <div class="forme">
-   <h1 id="title">Survey Form</h1>
-   <p id="description"><em>Answer honestly the following questions regarding some routine habits, for the preparation of an opinion survey:</p>
-   <form id="survey-form">
-     <fieldset>
-     <label for="name">Enter your name: <input required type="text" id="name" placeholder="First and Last Name"></input> </label>
-     <br>
-     <label for="email"> Enter your email:<input require type="email" id="email"  placeholder="Email"></input> </label>
-     <br>
-     <label for="number">Enter your age:<input required id="number" min="15" max="100" type="number" placeholder="Age"></input> </input> </label>
-     <br>
-     <label for="job">Enter what type of job you have (optional)*:<input id="job" placeholder="Your job" type="text"></input> </label>
-     </fieldset>
-     <fieldset>
-       <p>1.When you wake up in the morning, do you check your phone first?</p>
-       <p>
-         <input type="radio" name="yes" value="yes"> Yes <br />
-         <input type="radio" name="no" value="no"> No <br />
-         <input type="radio" name="sometimes" value="sometimes"> Sometimes <br />
-       </p>
-       <hr id="rule">
-       <p>2.Do you usually meditate?</p>
-       <p>
-         <input type="radio" name="yes1" value="yes1"> Yes <br />
-         <input type="radio" name="no1" value="no1"> No <br />
-         <input type="radio" name="sometimes1" value="sometimes1"> Sometimes <br />
-       </p>
-<hr id="rule">
-       <p>3.Do you have a diary in which you label your emotions?</p>
-       <p>
-         <input type="radio" name="yes2" value="yes2"> Yes <br />
-         <input type="radio" name="no2" value="no2"> No <br />
-         <input type="radio" name="sometimes2" value="sometimes2"> Sometimes <br />
-       </p>
-<hr id="rule">
-       <p>4.Do you do sports often?</p>
-       <p>
-         <input type="radio" name="yes3" value="yes3"> Yes <br />
-         <input type="radio" name="no3" value="no3"> No <br />
-         <input type="radio" name="sometimes3" value="sometimes3"> Sometimes <br />
-       </p>
-<hr id="rule">
-       <p>5.You often feel at the job:</p>
-       <label for="stressed"><input type="checkbox" id="stress" name="answer-type"></input>Stressed</label>
-       <label for="exhausted"><input type="checkbox" id="exhausted" name="answer-type"></input>Exhausted</label>
-       <label for="stirred"><input type="checkbox" id="stirred" name="answer-type"></input>Stirred</label>
-       <label for="under pressure"><input type="checkbox" id="under-pressure" name="answer-type"></input>Under pressure</label>
-      </fieldset>
-      <fieldset>
-        <label for="refferer">Which method do you think would help you reach an emotional and mental balance?
-        <select id="refferer" name="refferer">
-<option value="">(select one)</option>
-            <option 
-            value="1">A therapist session
-            </option>
-            <option 
-            value="2">Disconnecting from technology 2 hours a day
-            </option>
-            <option 
-            value="3">Connecting with nature
-            </option>
-            <option 
-            value="4">Other
-            </option>
-          </select>
-        </label>
-        </select>
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://www.vogue.com/verso/static/vogue/assets/us/logo.svg" alt="logo">
+      <div class="meniu">
+      <nav id="nav-bar">
+        <ul id="list">
+          <li><a class="nav-link" href="#history">History</a></li>
+          <li><a class="nav-link" href="#principles">Principles</a></li>
+          <li><a class="nav-link" href="#big-four">Big Four</a></li>
+          </ul>
+      </nav>
+    </div>
+    <hr>
+ </header>
+    
 
-        <label for="opinion">If you have other methods of emotional help or have heard of other cases of problems related to emotions, you can report them right here:
-          <br>
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Type here..."></textarea>
-        </fieldset>
-        <input type="submit" value="Submit"></input>
-        <p><em>Thank you for your time!</p>
-   </form>
-   </div>
- </body>
+    
+<section id="container">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label><h2 id="title">Register for the Vogue brand newsletter</h2></label>
+      <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="Enter your email"
+      required>
+      <input id="btn" type="submit" id="submit" value="Get Started">
+    </form>
+  </section>
+
+  
+<div class="principles">
+    <p id="description1">From its beginnings to today, three central principles have set Vogue apart: a commitment to visual genius, investment in storytelling that puts women at the center of the culture, and a selective, optimistic editorial eye: </p>
+    <img src="https://api.kissfm.ro/resized/content-files/2022/01/18/vogggg2jpg_file_61e6ad9fd52ad.jpg?w=1080" width="400" height="400" alt="vogue" id="vogue-img">
+    </div>
+ 
+
+    <section id="history">
+      <iframe 
+      id="video" 
+      width="400" 
+      height="300" 
+      controls
+      src="https://youtube.com/embed/LfA1nlCpgt0"
+       allowfullscreen>
+        </iframe>
+      </section>
+
+      <p id="description1">The Big Four, sometimes referred to as The Big 4, is the name given in fashion to the four most notable Vogue covers; American Vogue, British Vogue, Vogue France and Vogue Italia.</p> <br>
+      <section id="big-four">
+        <div class="magazine" id="americanVogue">
+          <div class="country">American Vogue</div>
+            <img src="https://assets.vogue.com/photos/5cc9b8566e0d9e2eddf9ec6e/master/w_1600%2Cc_limit/10-zendaya-vogue-cover-june-2019.jpg" width="200" height="250" alt="cover" id="magazine-img"> <br>
+         <p>See more about <a href="https://www.vogue.com/fashion" id="magazine-link" target="_blank"> American Vogue </a>
+        </div>
+
+        <div class="magazine" id="britishVogue">
+        <div class="country">British Vogue</div>
+        <img src="https://media.vogue.co.uk/photos/623af62e438fd973cc6c5799/master/pass/April22_Cover_Crop.png" width="200" height="250" alt="cover" id="magazine-img"> <br>
+        <p> See more about <a href="https://www.vogue.co.uk/" id="magazine-link" target="_blank">British Vogue</a></p>
+        </div>
+
+        <div class="magazine" id="franceVogue">
+          <div class="country">Vogue France</div>
+          <img src="https://media.vogue.fr/photos/5d5c10c35a8816000867fe8f/master/w_1600%2Cc_limit/VOG1000_X4_RGB_P.jpg" width="200" height="250" alt="cover" id="magazine-img"> <br>
+          <p>See more about <a href="https://www.vogue.fr/" id="magazine-link" target="_blank"> Vogue France</a></p>
+          </div>
+
+          <div class="magazine" id="italianVogue">
+            <div class="country">Vogue Italia</div>
+            <img src="https://www.newsstand.co.uk/issueimages/535x745/2734046.jpg" width="200" height="250" alt="cover" id="magazine-img"><br>
+            <p>See more about<a href="https://www.vogue.it/" id="magazine-link" target="_blank"> Vogue Italia</a></p>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a id= "footer-link" href="#">Privacy</a></li>
+                <li><a href="#" id= "footer-link">Terms</a></li>
+                <li><a href="#" id= "footer-link">Contact</a></li>
+              </ul>
+              <span>Copyright 2016, Original Vogue</span>
+          </footer>
+  </body>
+</head>
 </html>

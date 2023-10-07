@@ -1,69 +1,222 @@
-body{
-    background-color: rgb(26, 47, 182);
-    
+.meniu{
+  position: fixed;
+  top: 25px;
+  right: 200px;
+  
 }
 
-header{
-    background-color: rgb(0, 187, 255);
-    margin: 20px 250px;
-    border: 5px solid black;
+#header{
+  background-color: pink;
 }
 
-.form, .form1{
-    border: 5px solid black;
-    background-color: rgb(0, 187, 255);
-    margin: 20px;
-    height: 500px;
-    font-size: 30px;
-    padding: 75px;
-    width: 250px;
-}
+  body {
+    background-color: #f9e4e7;
+    font-family: 'Times New Roman', sans-serif;
+  }
 
-#input, #input1{
-    margin-top: 50px;
-    margin-left: -60px;
-    
-}
+  #container > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
 
-h2{
+  #description1{
     text-align: center;
-}
-
-.result, .result1{
-    font-size: 30px;
-    background-color: greenyellow;
-    border: 4px solid black;
-    margin: 50px ;
-    margin-left: 40px;
-    
-}
-
-#field{
-    font-size: 30px;
-}
-
-.bmi, .bmi1, .compara{
+    text-decoration-style: solid;
     font-size: 20px;
-    color: red;
-    font-weight: 200;
-    margin-top: -1px;
-}
+    margin: 16px 40px;
+    border: 2px  solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+  }
 
-.compara{
-    color: white;
+  .magazine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-}
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+  }
 
-#flexbox{
+  #history {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #history > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+  
+    #big-four {
         margin-top: 60px;
         display: flex;
         flex-direction: row;
         justify-content: center;
-}
+      }
+    
+    .magazine {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  
 
-.comparare{
-    font-size: 30px;
-    background-color: greenyellow;
-    border: 4px solid black;
-    margin-left: 620px;
-}
+  .magazine > .country {
+    background-color: pink;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  #magazine-link{
+    text-decoration: none;
+    color: red;
+  }
+
+  #magazine-link:hover{
+    background-color: pink;
+    color: black;
+  }
+
+  #vogue-img{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  #container input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  #container input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 2px 2px solid;
+    background-color: pink;
+  }
+
+  #container input[type='submit']:hover {
+    background-color: palevioletred;
+    transition: background-color 1s;
+  }
+  
+  #container input[value="Get Started"]{
+    font-size: 15px;
+  }
+  
+  
+    .logo {
+      margin-bottom: 40px;
+      width: 100px;
+      height: 100px;
+    }
+  
+  
+
+    #header-img {
+    width: 180px;
+    height: 100px;
+    max-width: 300px;
+    display: grid;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 100px;
+    
+  }
+
+  nav ul{
+    list-style-type: none;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  nav li{
+    display: inline-block;
+  }
+  nav a:link,nav a:visited{
+    width:180px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+  }
+
+
+  
+  nav a:hover{
+    background-color: pink;
+    color: black;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: pink;
+    padding: 20px;
+  }
+  #footer-link{
+    text-decoration: none;
+    color: black;
+  }
+
+  ul a:hover{
+    background-color: palevioletred;
+    color: black;
+  }
+
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: black;
+  }
+
+  #form{
+  margin-top: 90px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  }
