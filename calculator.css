@@ -1,0 +1,160 @@
+
+.item, #clear{
+    width: 95px;
+    height: 95px;
+    font-size: 25px;
+    
+}
+
+#input, #result{
+    height: 40px;
+    width: 390px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: right;
+    font-size: 35px;
+    padding: 5px 3px;
+}
+
+#display::placeholder{
+    color: white;
+}  */
+
+.calculator {
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    background-color: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+#substract, #equals, #multiply, #add, #clear, #divide {
+    border: 2px solid black;
+    background-color: orange;
+    color: white; /* Adaugam culoarea textului pentru a fi mai vizibil */
+    }
+    
+ #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #decimal, #zero {
+    border: 2px solid black;
+    background-color: #fff8f8;
+    color: black; 
+    }
+
+.number:hover{
+    opacity: 0.7;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+#clear1, #zero{
+    grid-column: span 2;
+    border-radius: 20px;
+    font-size: 25px;
+    /* grid-template-columns: repeat(4, 1fr); */
+    }
+
+#egal{
+    grid-row: span 2;
+    border-radius: 20px;
+    font-size: 25px;
+    height: 190px;
+}
+    
+    .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    }
+    
+    .item{
+    width: 95px;
+    height: 95px;
+    font-size: 25px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    /* cursor: pointer; */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
+    /* transition: 0.2s ease-in-out; */
+    }
+    
+    #input,.calculator {
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #substract, #egal, #multiply, #add, #clear1, #divide {
+    border: 2px solid black;
+    background-color: orange;
+    color: white; /* Adaugam culoarea textului pentru a fi mai vizibil */
+    }
+
+    #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #decimal, #zero {
+    border: 2px solid black;
+    background-color: #e6e5e5;
+    color: black; /* Schimbam culoarea textului pentru a fi mai vizibil */
+    }
+
+    .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px; /* Adaugam spatiu intre butoane */
+    margin-top: 10px;
+    margin-left: 5px;
+    }
+
+    .item {
+    width: 95px;
+    height: 95px;
+    font-size: 25px;
+    display: flex; /* Adaugam afisarea flexibila pentru a centra textul butonului */
+    justify-content: center;
+    align-items: center;
+    }
+
+    #input,
+    #result {
+    height: 40px;
+    width: 390px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: right;
+    font-size: 35px;
+    /* padding: 5px 3px; */
+    }
+
+    #display::placeholder {
+    color: white;
+    }
+
+
+    #result {
+    height: 40px;
+    width: 390px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: right;
+    font-size: 35px;
+    padding: 5px 3px;
+    }
+    
+    
+    
+    
+
+ 
+
+
